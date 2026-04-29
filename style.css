@@ -1,23 +1,21 @@
-/* style.css */
-
 body {
     font-family: Arial, sans-serif;
-    margin: 0; /* Menghilangkan margin bawaan browser */
+    margin: 0; 
 }
 
 nav {
-    background-color: #24292e; /* Warna gelap khas GitHub */
+    background-color: #24292e; 
 }
 
 nav ul {
-    list-style-type: none; /* Menghilangkan titik (bullet) pada list */
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
 nav li {
-    float: left; /* Membuat list berjejer ke samping */
+    float: left; 
 }
 
 nav li a {
@@ -25,16 +23,31 @@ nav li a {
     color: white;
     text-align: center;
     padding: 14px 20px;
-    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    text-decoration: none; 
     font-weight: bold;
 }
 
-/* Mengubah warna latar saat kursor diarahkan ke menu */
 nav li a:hover {
     background-color: #0366d6; 
 }
 
-/* Memberikan sedikit jarak pada konten utama */
 .content {
     padding: 20px;
+}
+
+footer {
+    background-color: #f6f8fa; 
+    color: #586069;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #e1e4e8; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px; 
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
 }
