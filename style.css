@@ -1,0 +1,40 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Menghilangkan margin bawaan browser */
+}
+
+nav {
+    background-color: #24292e; /* Warna gelap khas GitHub */
+}
+
+nav ul {
+    list-style-type: none; /* Menghilangkan titik (bullet) pada list */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left; /* Membuat list berjejer ke samping */
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    font-weight: bold;
+}
+
+/* Mengubah warna latar saat kursor diarahkan ke menu */
+nav li a:hover {
+    background-color: #0366d6; 
+}
+
+/* Memberikan sedikit jarak pada konten utama */
+.content {
+    padding: 20px;
+}
