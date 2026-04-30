@@ -1,31 +1,226 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MUNGKIN RENTAL - Solusi rental & sewa mobil perusahaan jangka panjang & pendek dengan layanan premium.">
+  <title>MUNGKIN RENTAL — Rental & Sewa Mobil Terbaik untuk Perusahaan</title>
+  <!-- Bootstrap CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
 
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#blog">Blog</a></li>
-        </ul>
-    </nav>
-
-    <div class="content">
-        <h1>Welcome to GitHub</h1>
-        <p>This is a sample HTML file for GitHub.</p>
-        <p>Anda bisa menambahkan konten lainnya di sini agar halaman terlihat lebih panjang.</p>
+  <!-- ===== TOP BAR ===== -->
+  <div class="top-bar d-none d-lg-block">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="top-bar-left">
+          <span><i class="bi bi-telephone-fill me-2"></i> 24/7 Call Center: 0895 12345678</span>
+          <span class="ms-4"><i class="bi bi-envelope-fill me-2"></i> customercare mungkinrental.co.id</span>
+        </div>
+      </div>
     </div>
+  </div>
 
-    <footer>
-        <p>&copy; 2026 contoh web untuk tugas GitHub. Dibuat dengan &hearts; dan &#9749; </p>
-    </footer>
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar navbar-expand-lg navbar-light navbar-custom sticky-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <span class="brand-text">MUNGKIN RENTAL</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link" href="#sejarah">Tentang Kami</a></li>
+          <li class="nav-item"><a class="nav-link" href="#produk">Produk</a></li>
+          <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+          <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+            <a class="btn btn-primary-custom px-4" href="#booking">Pesan Sekarang</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero-section" id="hero">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <!-- Teks Kiri -->
+        <div class="col-lg-7 col-xl-6 text-white hero-content">
+          <div class="hero-badge-corporate mb-3 animate-on-scroll">Solusi Transportasi Anda</div>
+          <h1 class="hero-title animate-on-scroll" style="transition-delay: 0.1s;">Rental & Sewa Mobil Terbaik untuk <span>Perusahaan</span></h1>
+          <p class="hero-subtitle text-light animate-on-scroll" style="transition-delay: 0.2s;">MUNGKIN RENTAL menyediakan solusi rental & sewa mobil perusahaan jangka panjang & pendek dengan layanan premium, armada berkualitas, dan pengalaman lebih dari 35 tahun.</p>
+          <div class="hero-buttons animate-on-scroll" style="transition-delay: 0.3s;">
+            <a href="#produk" class="btn btn-primary-custom btn-lg"><i class="bi bi-briefcase-fill me-2"></i>Lihat Solusi Bisnis</a>
+            <a href="#kontak" class="btn btn-outline-light btn-lg ms-sm-3 mt-3 mt-sm-0">Hubungi Kami</a>
+          </div>
+        </div>
+        
+        <!-- Tempat Gambar Kanan -->
+        <div class="col-lg-5 col-xl-6 d-none d-lg-block animate-on-scroll" style="transition-delay: 0.4s;">
+          <div class="d-flex align-items-center justify-content-center p-4">
+            <img src="assets/img/mobil-transparan.png" alt="" class="img-fluid w-100" style="filter: drop-shadow(0 20px 30px rgba(0,0,0,0.3)); transform: scale(1.1);">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-bg-image"></div>
+  </section>
+
+  <!-- ===== PRODUK KAMI ===== -->
+  <section id="produk" class="bg-light py-5">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <div class="section-badge-corporate">Layanan Bisnis</div>
+        <h2 class="section-title text-dark">Solusi <span>Produk Kami</span></h2>
+        <p class="section-subtitle">Memenuhi segala kebutuhan mobilitas dan pengelolaan kendaraan operasional bisnis Anda.</p>
+      </div>
+      
+      <div class="row g-4 justify-content-center">
+        <!-- Sewa Jangka Panjang -->
+        <div class="col-md-6 col-lg-4">
+          <div class="product-card animate-on-scroll">
+            <div class="product-icon"><i class="bi bi-calendar-range"></i></div>
+            <h4 class="product-title">Sewa Jangka Panjang</h4>
+            <p class="product-desc">Layanan sewa mobil kontrak jangka panjang sampai dengan 5 tahun untuk mobil dinas maupun operasional perusahaan.</p>
+            <a href="#" class="product-link">Pelajari Lebih Lanjut <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        
+        <!-- Sewa Jangka Pendek -->
+        <div class="col-md-6 col-lg-4">
+          <div class="product-card animate-on-scroll" style="transition-delay: 0.1s;">
+            <div class="product-icon"><i class="bi bi-clock-history"></i></div>
+            <h4 class="product-title">Sewa Jangka Pendek</h4>
+            <p class="product-desc">Penyewaan mobil dilengkapi jasa pengemudi mulai dari 8 jam hingga 1 bulan untuk acara khusus atau operasional sementara.</p>
+            <a href="#" class="product-link">Pelajari Lebih Lanjut <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        
+        <!-- Jasa Pengemudi -->
+        <div class="col-md-6 col-lg-4">
+          <div class="product-card animate-on-scroll" style="transition-delay: 0.2s;">
+            <div class="product-icon"><i class="bi bi-person-vcard"></i></div>
+            <h4 class="product-title">Jasa Pengemudi</h4>
+            <p class="product-desc">Layanan pengemudi profesional, terlatih, dengan pengetahuan luas akan wilayah untuk melengkapi kepuasan perjalanan Anda.</p>
+            <a href="#" class="product-link">Pelajari Lebih Lanjut <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Manajemen Armada -->
+        <div class="col-md-6 col-lg-4">
+          <div class="product-card animate-on-scroll">
+            <div class="product-icon"><i class="bi bi-car-front-fill"></i></div>
+            <h4 class="product-title">Manajemen Armada</h4>
+            <p class="product-desc">Pengelolaan Car Pooling menggunakan aplikasi berbasis IT untuk mengatur penggunaan mobil operasional lebih efektif & efisien.</p>
+            <a href="#" class="product-link">Pelajari Lebih Lanjut <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Car Ownership Program -->
+        <div class="col-md-6 col-lg-4">
+          <div class="product-card animate-on-scroll" style="transition-delay: 0.1s;">
+            <div class="product-icon"><i class="bi bi-key-fill"></i></div>
+            <h4 class="product-title">Car Ownership Program</h4>
+            <p class="product-desc">Layanan kepemilikan kendaraan dimana pada akhir masa sewa, pelanggan mendapatkan opsi untuk memiliki kendaraan tersebut.</p>
+            <a href="#" class="product-link">Pelajari Lebih Lanjut <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SEJARAH PERUSAHAAN ===== -->
+  <section id="sejarah" class="py-5 bg-white">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-5 mb-lg-0 pe-lg-5 animate-on-scroll">
+          <div class="section-badge-corporate">Profil Bisnis</div>
+          <h2 class="section-title text-dark mb-4">Sejarah <span>Perusahaan</span></h2>
+          <p class="fs-5 text-muted mb-4">Lebih dari 3 dekade menjadi mitra strategis korporasi dalam pengelolaan kendaraan.</p>
+          <p class="text-secondary lh-lg mb-4">
+            MUNGKIN RENTAL adalah perusahaan penyedia jasa sewa dan pengelolaan kendaraan yang telah lebih dari 35 tahun melayani korporasi dan instansi pemerintah. Kami senantiasa berkomitmen untuk menyediakan berbagai merk, tipe, serta jenis kendaraan yang disesuaikan secara khusus dengan kebutuhan setiap pelanggan.
+          </p>
+          <p class="text-secondary lh-lg mb-4">
+            Berawal dari komitmen memberikan pelayanan prima, kami terus berinovasi dan melebarkan jaringan ke seluruh pelosok Nusantara, memastikan standar keselamatan dan kenyamanan terbaik bagi para klien kami.
+          </p>
+          <div class="d-flex justify-content-center align-items-center gap-4 mt-4 p-4 bg-light rounded-4">
+            <div class="text-center px-3 border-end">
+              <h2 class="fw-bold text-primary m-0">35+</h2>
+              <span class="text-muted small fw-bold">Tahun Pengalaman</span>
+            </div>
+            <div class="text-center px-3">
+              <h2 class="fw-bold text-primary m-0">Ribuan</h2>
+              <span class="text-muted small fw-bold">Armada Kendaraan</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 animate-on-scroll" style="transition-delay: 0.2s;">
+          <div class="history-timeline">
+            <!-- Timeline Item 1 -->
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h5 class="fw-bold text-dark mb-1">Awal Berdiri</h5>
+                <p class="text-muted small mb-2">Pondasi Perusahaan</p>
+                <p class="text-secondary text-sm">Didirikan untuk menjawab kebutuhan perusahaan akan penyediaan kendaraan operasional yang efisien dan profesional.</p>
+              </div>
+            </div>
+            <!-- Timeline Item 2 -->
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h5 class="fw-bold text-dark mb-1">Ekspansi Layanan</h5>
+                <p class="text-muted small mb-2">Penambahan Armada & Driver</p>
+                <p class="text-secondary text-sm">Memperkenalkan layanan sewa jangka pendek dan manajemen pengemudi untuk solusi end-to-end.</p>
+              </div>
+            </div>
+            <!-- Timeline Item 3 -->
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h5 class="fw-bold text-dark mb-1">Transformasi Digital</h5>
+                <p class="text-muted small mb-2">Manajemen Armada Berbasis IT</p>
+                <p class="text-secondary text-sm">Peluncuran sistem manajemen Car Pooling berbasis teknologi yang mempermudah pelaporan pelanggan.</p>
+              </div>
+            </div>
+            <!-- Timeline Item 4 -->
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h5 class="fw-bold text-dark mb-1">Hari Ini</h5>
+                <p class="text-muted small mb-2">Pemimpin Pasar</p>
+                <p class="text-secondary text-sm">Menjadi mitra andalan bagi berbagai korporasi multinasional dan instansi pemerintahan di Indonesia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA SECTION ===== -->
+  <section class="cta-section py-5 text-center text-white" style="background: linear-gradient(135deg, var(--primary-dark), #003285);">
+    <div class="container py-4">
+      <h2 class="fw-bold mb-3">Siap Mengoptimalkan Mobilitas Bisnis Anda?</h2>
+      <p class="fs-5 mb-4 opacity-75">Tim ahli kami siap memberikan konsultasi gratis untuk kebutuhan armada perusahaan Anda.</p>
+      <a href="#kontak" class="btn btn-light btn-lg fw-bold text-primary px-5 rounded-pill shadow">Hubungi Konsultan Kami</a>
+    </div>
+  </section>
+
+  <!-- Footer minimal untuk menutup halaman -->
+  <footer class="footer bg-dark text-white pt-5 pb-3">
+    <div class="container text-center">
+      <h4 class="fw-bold mb-3">MUNGKIN RENTAL</h4>
+    </div>
+  </footer>
 
 </body>
 </html>
